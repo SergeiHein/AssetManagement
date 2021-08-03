@@ -1,0 +1,16 @@
+{
+  "server_path": "http://192.168.1.2:8088/",
+  "public": "_site",
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/metronic/preview/react/demo1"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/metronic/preview/react/demo1/**",
+      "destination": "/metronic/preview/react/demo1/index.html"
+    }
+  ]
+}
